@@ -1,6 +1,7 @@
 # Presentation zur Rekursion 
 
 ## Requierements 
-- Juypter
-- Python3.* <=
-- Openjdk 8.* <=
+- Juypter 
+- Python3.* <= 
+- Java 8.* <=
+- Miktex
