@@ -1,6 +1,6 @@
-# Presentation zur Rekursion 
+# Präsentation zur Rekursion 
 
-## Requierements 
+### Verwendete Software 
 - Juypter 
 - Python3.* <= 
 - Java 8.* <=
