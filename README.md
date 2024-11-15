@@ -6,3 +6,4 @@
 - Java 8.* <=
 - Miktex
 - GHC 8.* <=
+- ELM
