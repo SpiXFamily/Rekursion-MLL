@@ -342,6 +342,7 @@ Wir zeigen dass:
 \end{frame}
 
 \begin{frame}
+\textbf{Aufgabe 3.4):} \\[1em]
 zunächst sei die Funktion $ f(x) = \frac{1}{\sqrt{5}} \cdot \left( \frac{1 + \sqrt{5}}{2} \right)^{x} $
 \end{frame}
 \begin{frame}
@@ -470,7 +471,7 @@ Zeigen Sie mit Hilfe der Formel von Moivre-Binet, dass
 
 \end{frame}
 
-\begin{frame}{Goldene Schnitt}
+\begin{frame}{Goldener Schnitt}
 
 \begin{tikzpicture}
     \uncover<1->{ 
@@ -519,7 +520,7 @@ Zeigen Sie mit Hilfe der Formel von Moivre-Binet, dass
 \\
 
 \uncover<8->{
-Die fläche des Rechteckes
+Die Fläche des Rechteckes
 \\
  
 $1^2+1^2+2^2+3^2+5^2+8^2+13^2$\\
@@ -558,21 +559,21 @@ $=13 \times 21$
 \section{Zusatz Aufgaben}
 
 \begin{frame}{Zusatz Aufgaben}
-     \subsection{3.8 Rekursiove Formel}
+     %\subsection{3.8 Rekursive Formel}
      Finden eine rekursive Formel für die Wahrscheinlichkeit, dass $n$ Personen alle an
 verschiedenen Tagen im Jahr Geburtstag haben.  Dabei können wir vereinfachend davon ausgehen,
 dass das Jahr 365 Tage hat und die sich die Geburtstage rein zufällig auf die diese 365 Tage
 verteilen.  \newline 
-\textbf{Ansatz:} $P_{n} = \frac{365}{365} \cdot \frac{364}{365} \cdot \frac{363}{365} \cdot \frac{362}{365} ... \frac{365 - n + 1}{365} $ 
+\textbf{Ansatz:} $P_{n} = \frac{365}{365} \cdot \frac{364}{365} \cdot \frac{363}{365} \cdot \fac{362}{365} ... \frac{365 - n + 1}{365} $ 
 
 \newline 
 \textbf{Allgemein gilt:} $P(n)  = P(n- 1) \cdot \frac{364 - (n -1)}{365}$
 \end{frame}
 
 
-\begin{frame}{3.9 a) Rekursive Formel}
-\subsection{3.9}
-
+\begin{frame} %{3.9 a) Rekursive Formel}
+%\subsection{3.9}
+\noindent \textbf{3.9 a) Rekursive Formel} \\
 Rekursive Formel für die Fakultät $n!$:
 $n! = 
 \begin{cases}
@@ -585,8 +586,9 @@ $n! =
 \end{cases}
 \end{frame}
 
-\begin{frame}{3.9 a) Code zur Formel }
+\begin{frame}%{3.9 a) Code zur Formel }
 \begin{figure}
+\noindent \textbf{3.9 a) Code zur Rekursive Formel} \\
     \begin{center}
     \includegraphics[width=1.8\textwidth]{code/aufg3.9a.png}
     \end{center}
@@ -594,7 +596,9 @@ $n! =
 \end{frame}
 
 \begin{frame}
-Rekursive Formel für den Binomialkoeffizienten 
+
+\noindent \textbf{3.9 b) Rekursive Formel für den Binomialkoeffizienten } \\
+
 $ \binom{n}{k} $:
 $\binom{n}{k} = \begin{cases}
     1     \text{ } \text{ } \text{ } \text{ } \text{ }
@@ -612,8 +616,9 @@ $\binom{n}{k} = \begin{cases}
 \end{cases}$        
 \end{frame}
 
-\begin{frame}{3.9 b) Code Rekursive Formel }
+\begin{frame}%{3.9 b) Code Rekursive Formel }
 \begin{figure}
+\noindent \textbf{3.9 b) Code Rekursive Formel für  den Binomialkoeffizienten} \\
     \begin{center}
         \includegraphics[width=1.3\textwidth]{code/aufg3.9.png}
     \end{center}
@@ -679,7 +684,7 @@ Durch Induktion folgt, dass $ b_n < \phi $ für alle $ n $. \\
 
 \begin{frame}
     Zu Zeigen, dass die Folge $ b_n $ monoton wachsend ist, d.h. $ b_n < b_{n+1} \forall n $. \\ 
-    \textbf{Zeigen vollständige Induktion:}
+    \textbf{Zeigen vollständige Induktion:} \\
     \textbf{Induktionsanfang:} Für $n = 1$ haben wir $ b_1 = 1 < b_2 = \sqrt{1 + 1} = \sqrt{2} .$ \\
 
 \textbf{Induktionsannahme:} Angenommen, $ b_k < b_{k+1} $ \\
